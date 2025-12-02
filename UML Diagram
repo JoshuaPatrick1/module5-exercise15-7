@@ -1,0 +1,23 @@
++----------------------+
+| ChangeCircleColor    |
+|----------------------|
+| + start(Stage): void |
+| + main(String[]):void|
++----------------------+
+          ^
+          |
++----------------------+
+| Application          |
+|----------------------|
+| <<abstract>>         |
+| + start(Stage): void |
+| + launch(String[]):  |
++----------------------+
+
++----------------------+
+| Circle               |
+|----------------------|
+| + setFill(Color)     |
+| + setOnMousePressed  |
+| + setOnMouseReleased |
++----------------------+
